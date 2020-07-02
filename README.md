@@ -1,9 +1,9 @@
 # The script checks IDE version, and keeps settings, logs and cache
 
-Supports: Intellij IDEA, WebStorm, DataGrip, PhpStorm, CLion, PyCharm, RubyMine, GoLand and Rider
+Intellij IDEA, WebStorm, DataGrip, PhpStorm, CLion, PyCharm, RubyMine, GoLand and Rider
 
 ## Usage
-- Close all JetBrains applications
+- Close all IDE applications
 - For first time only:
 ```shell script
 chmod +x runme.sh
@@ -15,7 +15,7 @@ chmod +x runme.sh
 - Reboot
 
 
-### Experimental: Reset evaluation automatically using launchd agent
+### Experimental: Version check automatically using launchd agent
 
 - Load job into launchctl:
 ```shell script
